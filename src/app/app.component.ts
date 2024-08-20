@@ -9,7 +9,8 @@ import { MainContentComponent } from './main-content/main-content.component';
   imports: [
     CommonModule, 
     RouterOutlet, 
-    MainContentComponent],
+    MainContentComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
