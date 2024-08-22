@@ -6,9 +6,11 @@ import { NavbarComponent } from './navbar/navbar.component';
     imports: [NavbarComponent],
     template: `
     <section>
-        <div><app-navbar></app-navbar></div> 
+        <div><app-navbar></app-navbar></div>
+      
         <h1 class="font-raleway">SAKURA RAMEN</h1>
         <h2 class="font-raleway">THE BEST RAMEN IN TOWN</h2>
+       
     </section>
         `,
     styleUrls: ['./landingPage.component.scss'],
